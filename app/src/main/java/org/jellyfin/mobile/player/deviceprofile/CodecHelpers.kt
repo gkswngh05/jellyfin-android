@@ -249,6 +249,7 @@ object CodecHelpers {
             "idx", "sub" -> MimeTypes.APPLICATION_VOBSUB
             "pgs", "pgssub" -> MimeTypes.APPLICATION_PGS
             "smi", "smil" -> "application/smil+xml"
+            "sami" -> MimeTypes.APPLICATION_SUBRIP
             else -> null
         }
     }
